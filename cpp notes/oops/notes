@@ -1,0 +1,50 @@
+Object oriented programming
+
+real life scenary of becomes more representable;
+
+how to use real scenary using oops
+
+vector , string , stake libraries were made with oops
+
+ Classes and Objects
+ 1. Objects are entities in the real world 
+ 2. class is like a blueringt of these entities
+
+structure--
+
+## Access Modifier
+    private: data & methods accessible inside class 
+    public : data & methods accessible to everyone
+    protected : data & methods inside class & to its derived class
+
+# Pillars of oops
+    1.Encapsulation
+    2.Abstraction
+    3. Inheritance
+    4. Polymorphism
+## Encapsulation
+    Encapsulation is wrapping up of data & member functions in a single unit called class.
+
+    >> data/properties + member function  in a single unit(class)
+    >> data hiding -- private
+
+
+## Constructor
+    >> special kind of function automatically invoked at time of object creation. Used for intialisation.
+        >> same as class.
+        >> constructor doesn't have a return type.
+        >> Only called once (automatically), at object creation
+        >> Memory allocation happens when constructor is called
+        >> constructor should be in public always
+    >> Non perameterized constructor
+    >> Parameterized constructor
+         >> there can be more than one constructor in one but every constructor should have different parameters , type also.( constructor overloading)
+    >> copy constructor
+        >> Special Constructor (default) used to copy properties of one object into another.
+    $$ (this) is a special pointer in cpp that points to the current object.
+    this -> prop is a same as *(this).prop
+
+
+
+
+ 
