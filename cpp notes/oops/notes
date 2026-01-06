@@ -43,6 +43,9 @@ structure--
         >> Special Constructor (default) used to copy properties of one object into another.
     $$ (this) is a special pointer in cpp that points to the current object.
     this -> prop is a same as *(this).prop
+        # shallow & deep copy
+        >> A shallow copy of an object copies all of the member values from one object to another
+        >>
 
 
 

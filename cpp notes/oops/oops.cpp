@@ -29,6 +29,18 @@ public:
     }
     
 };
+class Student {
+    string name;
+    double* cgpaPtr;
+    Student( string name, double cgpa){
+        this -> name = name;
+        cgpaPtr = new float;
+    }
+    void getInfo() {
+        cout<< name;
+        // cout<< cgpa;
+    }
+};
 
 int main(){
     teacher t1( "Minul", "cse", "math", 25000);
