@@ -45,7 +45,7 @@ structure--
     this -> prop is a same as *(this).prop
         # shallow & deep copy
         >> A shallow copy of an object copies all of the member values from one object to another
-        >>
+        >> A deep copy , on the other hand, not only copies the member of the values but also makes copies of any dynamically allocated memory that the members points to
 
 
 
