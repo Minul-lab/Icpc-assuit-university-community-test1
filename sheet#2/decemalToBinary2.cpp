@@ -4,17 +4,37 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-
-    int n,place=1, binary=0;
-    cin>>n;
+    int t;
+    cin>>t;
+    while(t--){
+        int n,c=0;
+        long long decimal = 0;
+        cin>>n;
+    
     while(n>0){
-        int digit = n%2;
-        place = 10*digit;
-        binary = binary + digit * place;
-        place = place*10;
+        
+        // place = 10*digit;
+        
+        if(n%2 == 1){
+            c++;
+        }
+        
         n/=2;
         
     }
-    cout<<binary;
+    
+    
+    
+    for (int i = 0; i<c; i++){
+        
+        
+        decimal += pow(2,i);
+        
+        
+    }
+    cout<<decimal<<"\n";
+    }
+    
+
     return 0;
 }

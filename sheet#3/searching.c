@@ -1,13 +1,23 @@
 #include<stdio.h>
 
 int main(){
-    long long x;
-    scanf("%lld", x);
-    long long int n[x], y;
-    scanf("%lld", y);
-    for(int i = 0; i<x; i++){
-        scanf("%lld",n[i]);
-        if(n[i]==)
-
+    int n;
+    scanf("%d", &n);
+    long long  a[n];
+    
+    for(int i = 0; i<n; i++){
+        scanf("%lld",&a[i]);
     }
+    long long x;
+    scanf("%lld", &x);
+    for(int i = 0; i< n;i++){
+        if(a[i]==x){
+            printf("%d",i);
+            return 0;
+        }
+    }
+
+    printf("-1");
+    return 0;
+
 }
