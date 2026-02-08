@@ -1,0 +1,10 @@
+>> sorting means arranging a set of data in a particular way
+
+>>bubble sort means
+    comparing a pair of elements in an array and pushing the 
+    largest number to the right for making the order of 
+    numbers ascending.
+    buble sort algorithm run a loop n-1 times.
+
+>> selection sort
+    
