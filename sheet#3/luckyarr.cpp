@@ -6,10 +6,36 @@ int main() {
     cin.tie(NULL);
 
     int n;
-    cin>>n;
+    cin >> n;
+
     int arr[n];
-    while(n--){
-       cin>>arr[n];
+
+    // input
+    for(int i = 0; i < n; i++){
+        cin >> arr[i];
+    }
+
+    int minimum = arr[0];
+
+    // find minimum
+    for(int i = 1; i < n; i++){
+        if(arr[i] < minimum){
+            minimum = arr[i];
+        }
+    }
+    
+    int count=0;
+    for (int i = 0; i < n; i++)
+    {
+        if(minimum == arr[i]){
+            count++;
+        }
+    }
+    
+    if(count%2 == 0){
+        cout<<"Unlucky";
+    }else{
+        cout<<"Lucky";
     }
     
 
